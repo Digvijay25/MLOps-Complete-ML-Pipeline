@@ -27,7 +27,6 @@ To get started with this project, you need to clone the repository and install t
 ```sh
 git clone https://github.com/Digvijay25/MLOps-Complete-ML-Pipeline.git
 cd MLOps-Complete-ML-Pipeline
-pip install -r requirements.txt
 ```
 
 ## Usage
@@ -45,7 +44,6 @@ MLOps-Complete-ML-Pipeline/
 ├── notebooks/
 ├── dvc.yaml
 ├── params.yaml
-├── requirements.txt
 └── README.md
 ```
 - `data/`: Scripts and data for preprocessing and collection.
@@ -53,7 +51,6 @@ MLOps-Complete-ML-Pipeline/
 - `notebooks/`: Jupyter notebooks for exploration and prototyping.
 - `dvc.yaml`: DVC pipeline configuration file.
 - `params.yaml`: Configuration file for hyperparameters and other settings.
-- `requirements.txt`: List of required Python packages.
 - `README.md`: Project documentation.
 
 ## Experiment Tracking with DVC
